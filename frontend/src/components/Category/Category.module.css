@@ -1,0 +1,13 @@
+.card {
+  width: 80%;
+  background-color: beige;
+}
+.table {
+  width: 1000px;
+  border: 0.0125rem solid aliceblue;
+}
+.tableHead {
+  padding: 42px 44px;
+  text-align: center;
+  background-color: rgb(250, 235, 215, 0.3);
+}
