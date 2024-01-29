@@ -14,6 +14,7 @@ const Category = () => {
 
   return (
     <div className={classes.categorySection}>
+      <h1>Our Categories..</h1>
       <table className={classes.table}>
         <thead className={classes.tableHead}>
           <tr>

@@ -1,17 +1,22 @@
 .card {
   width: 80%;
-  background-color: beige;
 }
 .table {
   width: 1200px;
   border: none;
+  background-color: rgb(110, 173, 255);
+  padding: 8px 40px;
+  border-radius: 8px;
 }
 .tableHead {
   padding: 42px 44px;
   text-align: center;
-  background-color: rgb(250, 235, 215, 0.3);
+  /* background-color: rgb(250, 235, 215, 0.3); */
 }
-.tableRow{
-    padding: 12px 42px;
-    margin: 5px;
+td{
+  padding: 12px ;
+}
+.tableRow {
+  padding: 8px 40px;
+  margin: 5px;
 }

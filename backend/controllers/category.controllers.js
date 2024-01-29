@@ -8,15 +8,15 @@ const getCategories = async (req, res) => {
     const findCategory = await categorySchema.find();
 
     if (!findCategory) {
-      res.status(404).json({ msg: `No Data Found!!` });
+      return res.status(404).json({ msg: "No Data Found!!" });
     }
+
     return res.status(200).json(findCategory);
   } catch (error) {
-    console.log(`Error while getting data!! ${error} `);
-    res.status(500).json("Server Error");
+    console.error(`Error while getting data: ${error}`);
+    return res.status(500).json("Server Error");
   }
 };
-
 // POST || Create New category
 // @route /categories
 const createCategory = async (req, res) => {
