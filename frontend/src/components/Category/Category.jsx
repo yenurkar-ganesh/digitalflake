@@ -27,7 +27,7 @@ const Category = () => {
         <tbody>
           {project.length > 0 &&
             project.map((project, id) => (
-              <tr key={id}>
+              <tr className={classes.tableRow} key={id}>
                 <td>{project.id} </td>
                 <td>{project.name} </td>
                 <td>{project.description} </td>
